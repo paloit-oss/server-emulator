@@ -13,6 +13,16 @@
         "commitmsg": "commitlint -e $GIT_PARAMS"
     },
     "dependencies": {
+        "yargs": "10.0.3",
+        "chalk": "2.3.0",
+        "express": "4.16.2",
+        "body-parser": "1.18.2",
+        "connect-multiparty": "2.1.0",
+        "cookie-parser": "1.4.3",
+        "filewatcher": "3.0.1",
+        "lodash": "4.17.4"
+    },
+    "devDependencies": {
         "@commitlint/cli": "5.2.5",
         "@commitlint/config-angular": "5.1.1",
         "@commitlint/prompt-cli": "5.2.5",
