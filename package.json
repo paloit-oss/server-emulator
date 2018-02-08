@@ -1,0 +1,21 @@
+{
+    "name": "@paloit-oss/server-emulator",
+    "version": "1.0.0",
+    "description": "Web Server to serve static resources and mock api endpoints",
+    "license": "MIT",
+    "repository": "https://github.com/paloit-oss/server-emulator",
+    "main": "./lib/index.js",
+    "bin": {
+        "server-emulator": "./bin/index.js"
+    },
+    "scripts": {
+        "commit": "commit",
+        "commitmsg": "commitlint -e $GIT_PARAMS"
+    },
+    "dependencies": {
+        "@commitlint/cli": "5.2.5",
+        "@commitlint/config-angular": "5.1.1",
+        "@commitlint/prompt-cli": "5.2.5",
+        "husky": "0.14.3"
+    }
+}
